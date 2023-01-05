@@ -1,0 +1,21 @@
+body{
+    background-image: url('https://www.cambridge.org/elt/blog/wp-content/uploads/2019/02/background-3268840_1920.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+ .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+
+    .weather-box{
+        border: 3px solid #fff;
+        padding: 50px;
+        border-radius: 30px;
+        background-color: azure;
+    }
+ }   
+}
